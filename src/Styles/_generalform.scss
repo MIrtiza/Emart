@@ -1,0 +1,30 @@
+.bg-cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.whitebg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: white;
+}
+
+.general-form-sec{
+    height: 100vh;
+    overflow: hidden;
+}
+.form-wrapper{
+    position: relative;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
